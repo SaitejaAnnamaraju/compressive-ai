@@ -1,0 +1,16 @@
+{
+  "name": "compressive-ai-workspace",
+  "private": true,
+  "description": "Convenience scripts that forward commands to the webgenie-builder app.",
+  "scripts": {
+    "setup": "npm --prefix webgenie-builder run setup",
+    "check": "npm --prefix webgenie-builder run check",
+    "dev": "npm --prefix webgenie-builder run dev --",
+    "dev:local": "npm --prefix webgenie-builder run dev:local --",
+    "dev:full": "npm --prefix webgenie-builder run dev:full --",
+    "build": "npm --prefix webgenie-builder run build",
+    "preview": "npm --prefix webgenie-builder run preview",
+    "functions:serve": "npm --prefix webgenie-builder run functions:serve",
+    "db:push": "npm --prefix webgenie-builder run db:push"
+  }
+}
